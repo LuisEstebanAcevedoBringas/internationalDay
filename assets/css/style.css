@@ -3825,6 +3825,21 @@ footer {
   margin: 1.5rem;
 }
 
+@media (max-width: 480px) {
+  .titleSquare h2{
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 1.5rem;
+  }
+
+  .titleSquare h3{
+    font-size: 2rem;
+    margin: 1rem;
+  }
+
+}
+
+
 .titleLine{
   background-color: #17288b;
   margin: 2rem;
@@ -3844,6 +3859,15 @@ footer {
   width: 900px;
 }
 
+@media (max-width: 900px) {
+  .map {
+    width: 90%;
+  }
+  .map img{
+    width: 100%;
+  }
+}
+
 .info{
   justify-content: center;
   flex-direction: column;
@@ -3860,7 +3884,7 @@ footer {
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 50vw;
+  height: 100vh;
 }
 
 .noimg{
@@ -3878,6 +3902,13 @@ footer {
 .poland{
   height: 40px;
 }
+
+@media (max-width: 480px) {
+  .poland, .lan {
+    height: 20px;
+  }
+}
+
 
 .int{
   justify-content: center;
@@ -3953,4 +3984,15 @@ footer {
     padding: 15px;
     width: 90%;
   }
+}
+
+.oya {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+}
+
+.oya img{
+  margin: 2rem 0 0 5rem;
 }
